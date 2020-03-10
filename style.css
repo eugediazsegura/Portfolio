@@ -1,0 +1,104 @@
+:root {
+    --colora: #8ac6d1;
+    --colora2: #004b60;
+    --colorc: #beebe9;
+    --colorr: #ffe3ed;
+}
+* {
+
+    text-decoration: none;
+    color: auto;
+    margin: 0px
+
+}
+
+nav .menu {
+    background-color: #ffff;
+    display: block;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    width: 71vw;
+    height: 50px;
+    padding-top: 2%;
+    text-align: right;
+    padding-left: 28vw;
+}
+.boton, .boton a {
+    display: inline;
+    top: 1vh;
+    font-family: 'Sen', sans-serif;
+    color: var(--colora);
+    top: 1%;
+    padding: 3%;
+    font-size: 110%  
+}   
+
+.boton a:hover {
+    color: #f6bbd4;
+}
+#mar {
+    width: 100%;  
+    height: auto;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    position: absolute;
+    font-family: 'Knewave', cursive;
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: center;
+}
+.cajaceleste {
+    position:relative;
+    z-index: -1;
+    width: 40vw;
+    height: 60vh;
+    left: 30vw;
+    margin: 20% 0;
+    background-color: #8ac6d1
+}
+.frase {
+    z-index: -1;
+    font-family: 'Sen', sans-serif;
+    font-size: 10rem;
+    font-kerning: auto;
+    text-align: center;
+    color: #ffe3ed;
+
+}
+#yo {
+    border-radius: 2rem;
+}
+.cajarosa {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+    right: 13vw;
+    background-color: #ffe3ed;
+    left: 30%;
+    top: 100px;
+}
+.texto {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    top: 10%;
+    font-size: 1.3rem;
+    padding: 12%
+}
+.icono {
+    height: 70px;
+    width: auto;
+    position: relative;
+    size: 20px;
+    display: flex;
+    color: var(--colora2)
+}
+}
